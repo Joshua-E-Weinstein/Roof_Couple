@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{141b33b6-9eb3-41aa-bc1c-b402b76d00e9}">
+		<property name="assetPath">
+			<value>death_theme/drums.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.519229166666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0efed9a4-504b-4f69-a160-f6eb1ccaab2d}</destination>
+		</relationship>
+	</object>
+</objects>

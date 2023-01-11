@@ -16,10 +16,9 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>5</value>
+			<value>4</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Intro</value>
 			<value>Loop 1</value>
 			<value>Loop 2</value>
 			<value>Loop 3</value>
