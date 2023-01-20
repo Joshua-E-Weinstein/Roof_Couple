@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 6519766081699735262}
   - component: {fileID: 3413671568206914925}
   - component: {fileID: 8941361395405366321}
+  - component: {fileID: 6695222324248879466}
   m_Layer: 10
   m_Name: MeleeCharacter
   m_TagString: Player
@@ -538,9 +539,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.3}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.25
 --- !u!114 &8941361395405366321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -566,3 +567,30 @@ MonoBehaviour:
   MinimumPressTime: 0.4
   JumpStartFeedback: {fileID: 0}
   JumpStopFeedback: {fileID: 0}
+--- !u!114 &6695222324248879466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412897581894677265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31b244c37658fa4197a240b64a28603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BoundWeaponIK: {fileID: 0}
+  DetachLeftHand: 0
+  DetachRightHand: 0
+  DisableAimWeaponModelAtTargetDuringStun: 0
+  WeaponModels: []
+  StunButton: 0
+  ExitStunButton: 0

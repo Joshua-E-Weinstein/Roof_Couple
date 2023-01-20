@@ -154,6 +154,8 @@ GameObject:
   - component: {fileID: 10562008}
   - component: {fileID: 10562007}
   - component: {fileID: 1560330592586143872}
+  - component: {fileID: 5826661113670289154}
+  - component: {fileID: 3867971487484733203}
   m_Layer: 13
   m_Name: BasherEnemyAIBrain
   m_TagString: Untagged
@@ -209,7 +211,7 @@ MonoBehaviour:
         TrueState: Patrol
         FalseState: 
       - Decision: {fileID: 1560330592586143872}
-        TrueState: Attacking
+        TrueState: WaitingToAttack
         FalseState: 
   - StateName: Attacking
     Actions:
@@ -219,6 +221,15 @@ MonoBehaviour:
       array:
       - Decision: {fileID: 10562007}
         TrueState: ChasePlayer
+        FalseState: 
+  - StateName: WaitingToAttack
+    Actions:
+      array:
+      - {fileID: 5826661113670289154}
+    Transitions:
+      array:
+      - Decision: {fileID: 3867971487484733203}
+        TrueState: Attack
         FalseState: 
   TimeInThisState: 0
   Target: {fileID: 0}
@@ -385,6 +396,35 @@ MonoBehaviour:
   Label: 
   ComparisonMode: 1
   Distance: 1.5
+--- !u!114 &5826661113670289154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001500674937302113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561ab803e1e9aa94ab096724696e5475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: 
+--- !u!114 &3867971487484733203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001500674937302113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21818f4def5bf646bec3d25770336cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: 
+  AfterTimeMin: 0.2
+  AfterTimeMax: 0.3
 --- !u!1 &2001500674986645359
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,7 +471,7 @@ Transform:
   - {fileID: 2001500674388945636}
   - {fileID: 8238768057616585110}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2001500674986645347
 MonoBehaviour:
