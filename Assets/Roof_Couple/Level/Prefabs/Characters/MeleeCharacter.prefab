@@ -492,7 +492,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  FacingMode: 1
+  FacingMode: 2
   FacingBase: 0
   ModelShouldFlip: 1
   ModelFlipValueLeft: {x: -1, y: 1, z: 1}
