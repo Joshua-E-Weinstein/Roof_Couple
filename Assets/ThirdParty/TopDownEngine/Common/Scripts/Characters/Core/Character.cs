@@ -88,7 +88,7 @@ namespace MoreMountains.TopDownEngine
 		public MMStateMachine<CharacterStates.CharacterConditions> ConditionState;
 
 		/// associated camera and input manager
-		public InputManager LinkedInputManager { get; protected set; }
+		public InputManager LinkedInputManager { get; protected set; }	
 		/// the animator associated to this character
 		public Animator _animator { get; protected set; }
 		/// a list of animator parameters

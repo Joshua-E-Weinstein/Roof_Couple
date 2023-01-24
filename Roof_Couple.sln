@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.Feedbacks.Authorizations", "MoreMountains.Feedbacks.Authorizations.csproj", "{24987f78-bf8d-64b3-1192-7b6e749d77f8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{332b9adb-99ef-b52e-377a-4f46f8c446fc}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMountains.TopDownEngine.InputSystem", "MoreMountains.TopDownEngine.InputSystem.csproj", "{76a0bcb9-78b3-e8b7-b1c9-690097f702d7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,6 +126,10 @@ Global
 		{e108c65d-0753-54b8-8111-2e79b1b8a544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24987f78-bf8d-64b3-1192-7b6e749d77f8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24987f78-bf8d-64b3-1192-7b6e749d77f8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332b9adb-99ef-b52e-377a-4f46f8c446fc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332b9adb-99ef-b52e-377a-4f46f8c446fc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76a0bcb9-78b3-e8b7-b1c9-690097f702d7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76a0bcb9-78b3-e8b7-b1c9-690097f702d7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
