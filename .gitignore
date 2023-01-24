@@ -109,3 +109,9 @@ Assets/**/Audio/.cache
 fmod_editor.log
 
 Assets/**/Audio/**/Backup
+*.wav
+*.ogg
+*.mp3
+*.flac
+
+!Assets/**/Audio/Assets/*
