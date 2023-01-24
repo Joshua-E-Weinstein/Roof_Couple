@@ -1,5 +1,6 @@
 {
     "name": "MoreMountains.TopDownEngine",
+    "rootNamespace": "",
     "references": [
         "GUID:4a1cb1490dc4df8409b2580d6b44e75e",
         "GUID:8087d854c1f812e4b9a74437dfc524e0",
@@ -9,7 +10,8 @@
         "GUID:d60799ab2a985554ea1a39cd38695018",
         "GUID:75469ad4d38634e559750d17036d5f7c",
         "GUID:ba880a3c55a41254a91d85dd28666dda",
-        "GUID:1dbcca72f42070548a895178556c5bc3"
+        "GUID:1dbcca72f42070548a895178556c5bc3",
+        "GUID:7c88a4a7926ee5145ad2dfa06f454c67"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
