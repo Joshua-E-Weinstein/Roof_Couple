@@ -135,6 +135,10 @@ namespace MoreMountains.TopDownEngine
 			_model = _character.CharacterModel;
 			_characterMovement = _character?.FindAbility<CharacterMovement>();
 			_spriteRenderer = this.gameObject.GetComponentInParent<SpriteRenderer>();
+			if (_spriteRenderer == null)
+			{
+				_spriteRenderer = this.gameObject.GetComponentInChildren<SpriteRenderer>();
+			}
 			_health = _character.CharacterHealth;
 			_inputManager = _character.LinkedInputManager;
 			_state = _character.CharacterState;

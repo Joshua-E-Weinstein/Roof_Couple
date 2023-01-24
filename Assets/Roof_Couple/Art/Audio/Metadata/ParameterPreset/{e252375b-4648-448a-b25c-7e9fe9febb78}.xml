@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e252375b-4648-448a-b25c-7e9fe9febb78}">
+		<property name="name">
+			<value>phase</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0345ecfd-eec9-4e26-bc07-cc710b51d734}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{baaeef79-17a1-45d1-bc44-57e0a57e9f11}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{baaeef79-17a1-45d1-bc44-57e0a57e9f11}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Loop 1</value>
+			<value>Loop 2</value>
+			<value>Loop 3</value>
+			<value>Loop 4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{cf3e04b8-fd48-4f70-87e8-1136f031ca3e}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{cf3e04b8-fd48-4f70-87e8-1136f031ca3e}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
