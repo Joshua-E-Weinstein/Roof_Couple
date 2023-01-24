@@ -2,6 +2,7 @@
 using System.Collections;
 using MoreMountains.Tools;
 using System.Collections.Generic;
+using FishNet.Object;
 
 namespace MoreMountains.TopDownEngine
 {	
