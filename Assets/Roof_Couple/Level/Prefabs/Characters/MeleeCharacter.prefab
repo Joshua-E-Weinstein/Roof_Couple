@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ee7fe4b0037274d8dba40f605ae049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gravity: 40
+  Gravity: 10
   GravityActive: 1
   CrouchedRaycastLengthMultiplier: 1
   PerformCardinalObstacleRaycastDetection: 0
@@ -297,9 +297,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d103439fc2940e347937487a70ea01e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AbilityStartSfx: {fileID: 0}
+  AbilityStartSfx: {fileID: 8300000, guid: d6654b23983ce73439bcc32434698d3c, type: 3}
   AbilityInProgressSfx: {fileID: 0}
-  AbilityStopSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 8300000, guid: 995dd144cd94b2f4badbd49d935da73f, type: 3}
   AbilityStartFeedbacks: {fileID: 0}
   AbilityStopFeedbacks: {fileID: 0}
   AbilityPermitted: 1

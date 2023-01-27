@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.Tools;
+using UnityEngine.UIElements;
 
 namespace MoreMountains.TopDownEngine
 {
@@ -39,17 +40,18 @@ namespace MoreMountains.TopDownEngine
 		protected Collider2D _collider;
 		protected float _lastObstacleDetectionTimestamp = 0f;
 		protected float _lastDirectionChangeTimestamp = 0f;
-                
+
 		/// <summary>
 		/// On start we grab our character movement component and pick a random direction
 		/// </summary>
 		public override void Initialization()
 		{
-			if(!ShouldInitialize) return;
+			if (!ShouldInitialize) return;
 			base.Initialization();
 			_characterMovement = this.gameObject.GetComponentInParent<Character>()?.FindAbility<CharacterMovement>();
 			_collider = this.gameObject.GetComponentInParent<Collider2D>();
 			PickRandomDirection();
+
 		}
 
 		/// <summary>
