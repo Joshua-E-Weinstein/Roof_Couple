@@ -192,6 +192,8 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		protected override void Update()
 		{
+			if (!base.IsOwner) return; // Guard Clause.
+
 			base.Update();
 			Velocity = (_rigidBody.transform.position - _positionLastFrame) / Time.deltaTime;
 			Acceleration = (Velocity - VelocityLastFrame) / Time.deltaTime;

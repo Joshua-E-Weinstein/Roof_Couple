@@ -22478,6 +22478,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c88994d153c654449e4c5012ac55def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _componentIndexCache: 0
+  _addedNetworkObject: {fileID: 0}
+  _networkObjectCache: {fileID: 0}
   Gravity: 40
   GravityActive: 1
   CrouchedRaycastLengthMultiplier: 1

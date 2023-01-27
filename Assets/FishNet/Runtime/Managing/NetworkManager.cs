@@ -372,6 +372,7 @@ namespace FishNet.Managing
             //This is the first instance, it may initialize.
             if (instances.Count == 0)
                 return true;
+                
 
             //First instance of NM.
             NetworkManager firstInstance = instances[0];

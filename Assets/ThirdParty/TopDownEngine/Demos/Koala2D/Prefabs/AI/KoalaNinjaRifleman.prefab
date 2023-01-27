@@ -5003,7 +5003,7 @@ Transform:
   - {fileID: 3856563852986387868}
   - {fileID: 2422054782847301448}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2374465151424397185
 Rigidbody2D:
@@ -5101,6 +5101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ee7fe4b0037274d8dba40f605ae049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _componentIndexCache: 0
+  _addedNetworkObject: {fileID: 0}
+  _networkObjectCache: {fileID: 0}
   Gravity: -30
   GravityActive: 1
   CrouchedRaycastLengthMultiplier: 1
