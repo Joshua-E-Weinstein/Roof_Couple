@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{ed6440c8-8181-47b6-acdf-a7ffd8aed178}">
+		<property name="assetPath">
+			<value>sfx/gunshots/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0efed9a4-504b-4f69-a160-f6eb1ccaab2d}</destination>
+		</relationship>
+	</object>
+</objects>
